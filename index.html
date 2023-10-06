@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign-Up Form</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -20,38 +21,41 @@
           href="https://www.logotouse.com/logo/reczhw9YbaLav71jb">logotouse.com</a></p>
     </div>
   </div>
-  <div class="top-section">
-    <p>This is not a real online service! You know you need something like this in your life to help you realize your
-      deepest dreams.<br>Sign up <em>now</em> to get started.</p>
-    <p>You <em>know</em> you want to.</p>
-  </div>
-  <div class="form-section">
-    <form action="https://httpbin.org/post" method="post" id="sign-up-form">
-      <p>Let's do this!</p>
-      <fieldset>
-        <label for="firstName">FIRST NAME</label>
-        <input type="text" name="firstName" id="firstName">
-
-        <label for="lastName">LAST NAME</label>
-        <input type="text" name="lastName" id="lastName">
-
-        <label for="email">EMAIL</label>
-        <input type="email" name="email" id="email">
-
-        <label for="phone">PHONE NUMBER</label>
-        <input type="tel" name="phone" id="phone">
-
-        <label for="password">PASSWORD</label>
-        <input type="password" name="password" id="password">
-
-        <label for="confirmPassword">CONFIRM PASSWORD</label>
-        <input type="password" name="confirmPassword" id="confirmPassword">
-      </fieldset>
-    </form>
-  </div>
-  <div class="lower-section">
-    <button type="submit" form="sign-up-form">Create Account</button>
-    <p>Already have an account? <a href="#">Log in</a></p>
+  <div class="content">
+    <div class="top-section">
+      <p>This is not a real online service! You know you need something like this in your life to help you realize your
+        deepest dreams.<br>Sign up <em>now</em> to get started.</p>
+      <p>You <em>know</em> you want to.</p>
+    </div>
+    <div class="form-section">
+      <form action="https://httpbin.org/post" method="post" id="sign-up-form">
+        <p>Let's do this!</p>
+        <fieldset>
+          <label for="firstName">FIRST NAME
+            <input type="text" name="firstName" id="firstName">
+          </label>
+          <label for="lastName">LAST NAME
+            <input type="text" name="lastName" id="lastName">
+          </label>
+          <label for="email">EMAIL
+            <input type="email" name="email" id="email">
+          </label>
+          <label for="phone">PHONE NUMBER
+            <input type="tel" name="phone" id="phone">
+          </label>
+          <label for="password">PASSWORD
+            <input type="password" name="password" id="password">
+          </label>
+          <label for="confirmPassword">CONFIRM PASSWORD
+            <input type="password" name="confirmPassword" id="confirmPassword">
+          </label>
+        </fieldset>
+      </form>
+    </div>
+    <div class="lower-section">
+      <button type="submit" form="sign-up-form">Create Account</button>
+      <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
   </div>
 </body>
 
