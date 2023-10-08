@@ -141,11 +141,15 @@ table {
 }
 
 body {
+  background-image: url(./assets/marco-meyer-E-C6BJCm6Vo-unsplash.jpg);
+  background-size: cover;
+  background-position-x: center;
   display: flex;
   align-items: stretch;
-  height: 99vh;
-  width: 99vw;
+  height: 100vh;
+  width: 100vw;
   font-family: 'Noto Sans', sans-serif;
+  color: white;
 }
 
 .image-sidebar {
@@ -157,6 +161,10 @@ body {
   align-items: center;
 }
 
+#logo {
+  margin-top: 20%;
+}
+
 .content {
   height: 100%;
 
@@ -166,8 +174,8 @@ body {
 }
 
 .content div {
-  border: 1px solid;
   flex: 1 1 auto;
+  background-color: rgba(60, 46, 96, 0.75);
 }
 
 .top-section {
@@ -183,7 +191,6 @@ body {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 1.2em;
-  max-height: ;
   max-width: 75em;
   margin-bottom: 1.25rem;
 }
@@ -192,13 +199,12 @@ em {
   font-style: italic;
 }
 
-.form-section {
-  padding: 1.25% 27.5% 0 5%;
-}
-
 #sign-up-form {
+  background-color: rgba(24, 11, 61, 1);
+  padding: 1.25% 27.5% 1.25% 5%;
   margin-bottom: 5%;
   min-height: 40%;
+  max-width: 100%;
 }
 
 #sign-up-form fieldset {
@@ -206,7 +212,7 @@ em {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   row-gap: 1.5rem;
-  column-gap: 4rem; 
+  column-gap: 4rem;
 }
 
 input {
@@ -218,10 +224,12 @@ button {
   font-size: 1rem;
   font-weight: 900;
   margin-bottom: 2rem;
-  padding: 2.5% 10%;
+  margin-left: 5%;
+  padding: 1.25% 5%;
 }
 
 #log-in-text {
   font-size: 1rem;
   font-weight: 100;
+  margin-left: 5.5%;
 }
