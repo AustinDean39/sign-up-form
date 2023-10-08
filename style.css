@@ -1,7 +1,13 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url(./fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Noto Sans";
 }
 
 body {
@@ -18,10 +24,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
-
-.content div {
-  border: 1px solid;
 }
 
 .content {
