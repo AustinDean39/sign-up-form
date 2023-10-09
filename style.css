@@ -165,6 +165,14 @@ body {
   margin-top: 20%;
 }
 
+.image-footer {
+  background-color: rgba(0, 0, 0, 0.375);
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.375);
+  min-width: 100%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
 .content {
   height: 100%;
 
