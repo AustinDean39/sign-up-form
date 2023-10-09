@@ -152,6 +152,16 @@ body {
   color: white;
 }
 
+a {
+  color: #22B24B;
+}
+a:visited {
+  color: lightgreen;
+}
+a:hover {
+  color: #ddd;
+}
+
 .image-sidebar {
   min-width: 37.5%;
   height: 100%;
