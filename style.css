@@ -240,15 +240,24 @@ input {
 button {
   background-color: #22B24B;
   border-radius: 0.75rem;
+  box-shadow: 0.1rem 0.1rem 2rem black;
+  
   color: #ddd;
-
   font-family: 'Noto Sans';
   font-size: 1rem;
   font-weight: 900;
+  text-shadow: 1px 1px 10px black;
 
   margin-bottom: 2rem;
   margin-left: 5%;
   padding: 1.25% 5%;
+}
+button:hover {
+  color: rgba(24, 11, 61, 1);
+  cursor: pointer;
+}
+button:active {
+  background-color: lightgreen;
 }
 
 #log-in-text {
