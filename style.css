@@ -256,6 +256,23 @@ input:focus {
   box-shadow: 0 0 0.5rem #ddd;
 }
 
+label:has(input:required)::after {
+  content: "(required)";
+  font-size: 0.5rem;
+}
+
+input:invalid {
+  border: 3px solid red;
+}
+
+input:required:valid {
+  border: 3px solid #22B24B;
+}
+
+input:invalid:placeholder-shown {
+  border: 3px solid #888;
+}
+
 label {
   font-size: small;
   color: #ddd;

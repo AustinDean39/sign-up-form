@@ -34,22 +34,22 @@
         <p>Let's do this!</p>
         <fieldset>
           <label for="firstName">FIRST NAME
-            <input type="text" name="firstName" id="firstName">
+            <input type="text" name="firstName" id="firstName" required pattern="^[a-zA-Z]+$" placeholder="">
           </label>
           <label for="lastName">LAST NAME
-            <input type="text" name="lastName" id="lastName">
+            <input type="text" name="lastName" id="lastName" required pattern="^[a-zA-Z]+$" placeholder="">
           </label>
           <label for="email">EMAIL
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required placeholder="name@example.com">
           </label>
           <label for="phone">PHONE NUMBER
-            <input type="tel" name="phone" id="phone">
+            <input type="tel" name="phone" id="phone" placeholder="XXX-XXX-XXXX" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
           </label>
           <label for="password">PASSWORD
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password" required class="passwords" placeholder="">
           </label>
           <label for="confirmPassword">CONFIRM PASSWORD
-            <input type="password" name="confirmPassword" id="confirmPassword">
+            <input type="password" name="confirmPassword" id="confirmPassword" required class="passwords" placeholder="">
           </label>
         </fieldset>
       </form>
