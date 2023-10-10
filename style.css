@@ -310,3 +310,14 @@ button:active {
   font-weight: 100;
   margin-left: 5.5%;
 }
+
+/* passwordError class for JS password-matching validation */
+input[type="password"].passwordError {
+  border: 3px solid red;
+}
+label:has(input.passwordError)::after {
+  content: "passwords do not match";
+  color: red;
+  font-size: 0.75rem;
+  margin-top: 1%;
+}
